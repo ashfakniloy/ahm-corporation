@@ -1,4 +1,19 @@
-html,
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    @apply p-0 m-0 bg-white text-base font-NunitoSans box-border;
+  }
+}
+
+/* .shadow-custom {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} */
+
+/* html,
 body {
   padding: 0;
   margin: 0;
@@ -23,4 +38,4 @@ a {
     color: white;
     background: black;
   }
-}
+} */
