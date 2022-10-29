@@ -24,7 +24,7 @@ function Banner() {
         />
       </div>
       <div className="absolute inset-0 container flex items-center text-white">
-        <div className="w-[615px] space-y-7">
+        <div className="lg:w-[615px] space-y-7">
           <h1 className="text-4xl font-semibold">AHM Corporation Title</h1>
           <p className="text-xl font-light leading-normal tracking-wide text-slate-100">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
