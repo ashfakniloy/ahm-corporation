@@ -23,6 +23,10 @@ module.exports = {
         "custom-blue": "#0071bb",
         "custom-blue2": "#0165a7",
       },
+      boxShadow: {
+        around: "0 0 15px 0 rgba(0, 0, 0, .1)",
+        "around-sm": "0 0 5px 0 rgba(0, 0, 0, .1)",
+      },
     },
   },
   plugins: [],

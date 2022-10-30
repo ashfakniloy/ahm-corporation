@@ -21,6 +21,7 @@ function Banner() {
           priority
           fill
           className="object-cover"
+          // className="object-cover lg:object-fill object-left"
         />
       </div>
       <div className="absolute inset-0 container flex items-center text-white">

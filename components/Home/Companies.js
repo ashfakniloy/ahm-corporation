@@ -34,7 +34,7 @@ function Companies() {
         {companiesData.map((company, i) => (
           <div
             key={i}
-            className="px-5 py-[3px] w-[250px] h-[250px] flex justify-center items-center shadow-lg hover:shadow-md transition duration-300"
+            className="px-5 py-[3px] w-[250px] h-[250px] flex justify-center items-center rounded shadow-around hover:shadow-around-sm transition duration-300"
           >
             <Image src={company.image} alt={company.name} />
           </div>

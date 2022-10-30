@@ -1,5 +1,5 @@
 import Companies from "../components/Home/Companies";
-import Banner from "../components/Layout/Banner";
+import Banner from "../components/Home/Banner";
 
 export default function Home() {
   return (
