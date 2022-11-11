@@ -4,7 +4,7 @@ import BannerImage from "../../public/images/banner.jpg";
 
 function Banner() {
   return (
-    <div className="relative h-screen overflow-hidden bg-black">
+    <div id="home" className="relative h-screen overflow-hidden bg-black">
       {/* <div className="relative w-full h-full opacity-50">
         <Image
           src={BannerImage}

@@ -3,9 +3,18 @@
 @tailwind utilities;
 
 @layer base {
+  /* html {
+    -webkit-tap-highlight-color: transparent;
+  } */
+
   html,
   body {
+    -webkit-tap-highlight-color: transparent;
     @apply p-0 m-0 bg-white text-base font-NunitoSans box-border;
+  }
+
+  .active {
+    @apply text-custom-blue  transition-all duration-300;
   }
 
   /* .shadow-custom {
